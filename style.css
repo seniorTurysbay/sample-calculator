@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    /* background: #607d8b; */
+    background: #e66465;
+    border:none;
+    color:white;
+}
+.textview{
+    width: 203px;
+    margin:5px;
+    font-size: 25px;
+    padding:5px;
+    border:none;
+    color:#607d8b;
+}
+.main{
+    position: absolute;
+    /* top:50%; */
+    /* left:50%; */
+    transform: translateX(-50)translateY(-50);
+    /* background: aqua; */
+    background: #b6b6b6;
+}
+body{
+    /* background: linear-gradient(to right,green, blue); */
+    background: linear-gradient(#e66465, #9198e5);
+    height: 100%;
+}
